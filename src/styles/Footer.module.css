@@ -88,6 +88,14 @@
   .footerDivider{
     display: flex;
   }
+}
+  .baseLine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
   
   @media (max-width: 300px) {
     .footer-content {
