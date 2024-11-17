@@ -1,0 +1,223 @@
+.mainContainer {
+    max-width: 1536px;
+    justify-self: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.iconsContainer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.socialIcons {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icon {
+    transition: color 0.3s ease;
+}
+
+.linkedin { color: #0077B5; }
+.instagram { color: #E1306C; }
+.twitter { color: #1DA1F2; }
+.facebook { color: #1877F2; }
+.github { color: #333; }
+
+.icon:hover { color: #FFA500; }
+
+.contentContainer {
+    flex: 1;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    color: #172554;
+    font-weight: 600;
+    font-family: serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.learnMoreContainer {
+    padding-top: 1.25rem;
+}
+
+.learnMoreButton {
+    background-color: #EA580C;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learnMoreButton:hover {
+    background-color: #1E293B;
+    color: #FB923C;
+}
+
+.imageContainer {
+    display: flex;
+    padding-top: 4rem;
+}
+
+.profileImage {
+    width: 100%;
+    height: auto;
+    border-left: 8px solid #EA580C;
+    border-bottom: 4px solid #EA580C;
+    border-radius: 1rem;
+}
+
+.aboutSection {
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.aboutTitle {
+    font-family: serif;
+    font-size: 1.875rem;
+    color: #172554;
+    font-weight: 600;
+}
+
+.aboutContent {
+    padding-top: 3rem;
+}
+
+.aboutText {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.75;
+    font-weight: 500;
+    text-align: left;
+}
+
+.aboutTextContent {
+    margin-bottom: 1.25rem;
+}
+
+.aboutHeading {
+    font-size: 2.25rem;
+    font-family: serif;
+    font-weight: 600;
+    color: #172554;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contactButtonContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contactButton {
+    background-color: #EA580C;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contactButton:hover {
+    background-color: #1E293B;
+    color: #FB923C;
+}
+
+.laptopImage {
+    width: 100%;
+    height: auto;
+}
+
+.footerSpacer {
+    margin-top: 8rem;
+}
+
+@media (min-width: 768px) {
+    .iconsContainer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .socialIcons {
+        display: flex;
+    }
+
+    .contentContainer {
+        text-align: left;
+    }
+
+    .imageContainer {
+        padding: 5rem;
+    }
+
+    .aboutContent {
+        display: flex;
+    }
+
+    .laptopImageContainer {
+        padding-left: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .iconsContainer {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .title {
+        font-size: 3.75rem;
+    }
+
+    .aboutSection {
+        padding-top: 8rem;
+    }
+
+    .aboutContent {
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .laptopImage {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .imageContainer {
+        padding: 5rem 1.5rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .iconsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutHeading {
+        font-size: 1.5rem;
+        font-family: serif;
+        font-weight: 600;
+        color: #172554;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .imageContainer {
+        padding: 5rem 1.5rem;
+    }
+}

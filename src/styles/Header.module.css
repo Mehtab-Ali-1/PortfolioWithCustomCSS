@@ -1,0 +1,122 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  background-color: #1f2937;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.logo h1 {
+  background-color: #ea580c;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.desktopNav {
+  display: none;
+}
+
+.desktopNav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.desktopNav a:hover {
+  color: #ea580c;
+}
+
+.hireButton {
+  display: none;
+}
+
+.hireButton a {
+  background-color: #ea580c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hireButton a:hover {
+  background-color: #1f2937;
+  color: #fb923c;
+}
+
+.mobileMenuTrigger {
+  color: #ea580c;
+}
+
+.mobileMenuLogo {
+  background-color: #ea580c;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: inline-block;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-top: 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.mobileNav a:hover {
+  color: #ea580c;
+}
+
+.mobileHireButton {
+  padding-top: 2rem;
+}
+
+.mobileHireButton a {
+  background-color: #ea580c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.mobileHireButton a:hover {
+  background-color: #c2410c;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 1rem 3rem;
+  }
+
+  .desktopNav {
+    display: block;
+  }
+
+  .hireButton {
+    display: block;
+  }
+
+  .mobileMenuTrigger {
+    display: none;
+  }
+}
+

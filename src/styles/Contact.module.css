@@ -1,0 +1,179 @@
+.mainContainer {
+    max-width: 1536px;
+    justify-self: center;
+    width: 100vw;
+}
+
+.heroSection {
+    height: 18rem;
+    width: 100%;
+    background-color: #FFF5E6;
+}
+
+.heroTitle {
+    padding-top: 5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCardsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+}
+
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    gap: 1rem;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.contactIcon {
+    color: #EA580C;
+    font-size: 3rem;
+}
+
+.formMessageContainer {
+    display: flex;
+    margin-top: 3.5rem;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #E2E8F0;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    gap: 1.75rem;
+    width: 60%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 0.75rem;
+    padding: 2.25rem 0;
+}
+
+.formTitle {
+    font-size: 2.25rem;
+    font-family: serif;
+    color: #172554;
+}
+
+.formInput, .formTextarea {
+    padding-left: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.formTextarea {
+    padding-bottom: 5rem;
+    resize: vertical;
+}
+
+.formButton {
+    padding-left: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: #EA580C;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.formButton:hover {
+    background-color: #1E293B;
+    color: #FB923C;
+}
+
+.messageContainer {
+    width: 40%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.messageTitle {
+    font-size: 2.25rem;
+    color: #172554;
+    font-family: serif;
+}
+
+.messageText {
+    padding-top: 3rem;
+    line-height: 2.5rem;
+    font-size: 1.125rem;
+}
+
+.socialIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+    padding-top: 2.5rem;
+}
+
+.socialIcon {
+    transition: color 0.3s;
+}
+
+.github { color: black; }
+.linkedin { color: #0077B5; }
+.instagram { color: #E1306C; }
+.twitter { color: black; }
+.facebook { color: #1877F2; }
+
+.socialIcon:hover {
+    color: #EA580C;
+}
+
+.footerSpacer {
+    margin-top: 8rem;
+}
+
+@media (max-width: 767px) {
+    .heroSection {
+        height: auto;
+    }
+
+    .heroTitle {
+        font-size: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .contactCardsContainer {
+        flex-direction: column;
+        gap: 2.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .formMessageContainer {
+        flex-direction: column;
+    }
+
+    .formContainer {
+        width: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 5rem;
+    }
+
+    .messageContainer {
+        width: auto;
+        margin-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

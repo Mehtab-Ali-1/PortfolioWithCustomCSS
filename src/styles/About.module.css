@@ -1,0 +1,197 @@
+.mainContainer {
+    max-width: 1536px;
+    justify-self: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.heroSection {
+    height: 18rem;
+    width: 100%;
+    background-color: #FFF5E6;
+}
+
+.heroTitle {
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding-top: 5rem;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    gap: 2.5rem;
+    padding-top: 9rem;
+}
+
+.profileSection {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+.imageContainer {
+    padding: 0 5rem;
+}
+
+.profileImage {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border-right: 8px solid #EA580C;
+    border-top: 4px solid #EA580C;
+    border-bottom: 4px solid #EA580C;
+}
+
+.profileInfo {
+    flex: 1;
+}
+
+.profileTitle {
+    font-size: 2.25rem;
+    color: #172554;
+    font-weight: 600;
+    font-family: serif;
+    padding-top: 2.25rem;
+}
+
+.profileDescription {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.contactText {
+    padding-top: 2rem;
+}
+
+.emailLink {
+    color: #1E3A8A;
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.productSection {
+    padding: 0 1.25rem;
+    padding-top: 4rem;
+}
+
+.productTitle {
+    font-size: 2.25rem;
+    color: #172554;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.productDescription {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.experienceSection {
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.experienceInfo {
+    flex: 1;
+    padding-top: 3rem;
+}
+
+.experienceTitle {
+    color: #172554;
+    font-size: 2.25rem;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.downloadButton {
+    display: inline-block;
+    background-color: #EA580C;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.125rem;
+    margin-top: 1.75rem;
+    text-decoration: none;
+}
+
+.skillsSection {
+    flex: 1;
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skillLabel {
+    color: #172554;
+    font-weight: bold;
+}
+.progress{
+    height: 10px;
+    width: 100%;
+    color: #EA580C;
+}
+
+.footerSpacer {
+    margin-top: 8rem;
+}
+
+@media (max-width: 1023px) {
+    .contentSection {
+        padding-top: 9rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .heroSection {
+        height: auto;
+    }
+
+    .heroTitle {
+        font-size: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .contentSection {
+        padding: 0 1.5rem;
+        padding-top: 3rem;
+    }
+
+    .profileSection {
+        flex-direction: column;
+    }
+
+    .imageContainer {
+        padding: 0 1.5rem;
+    }
+
+    .profileTitle, .productTitle, .experienceTitle {
+        font-size: 1.875rem;
+    }
+
+    .experienceSection {
+        flex-direction: column;
+        padding: 0 2.75rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .imageContainer {
+        padding: 0 1.5rem;
+    }
+}
