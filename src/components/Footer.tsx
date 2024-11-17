@@ -44,12 +44,12 @@ export default function Footer() {
       </div>
       <hr className={styles.footerDivider} />
       <div className={styles.baseLine}>
-          <p className={styles.allRightLine}>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p className={styles.allRightLine}>© {new Date().getFullYear()} Mehtab Ali. All rights reserved.</p>
           <div className={styles.privacyLine}>
-            <Link href="/privacy" className={}>Privacy Policy</Link>
-            <Link href="/terms" className={}>Terms of Service</Link>
+            <Link href="/privacy" className={styles.privacy}>Privacy Policy</Link>
+            <Link href="/terms" className={styles.terms}>Terms of Service</Link>
           </div>
-        </div>
+      </div>
 
     </footer>
   );
