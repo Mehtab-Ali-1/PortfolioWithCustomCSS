@@ -57,7 +57,7 @@ export default function Header() {
             </SheetTitle>
             <SheetDescription>
               <nav className={styles.mobileNav}>
-                <Link href="/home">Home</Link>
+                <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
                 <Link href="/portfolio">Portfolio</Link>
                 <Link href="/contact">Contact</Link>
